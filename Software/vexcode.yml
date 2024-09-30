@@ -1,0 +1,22 @@
+Name: VEXcode V5
+Description: The official app for coding in VEX robotics
+Grade: undefined
+Arch: win64
+
+Dependencies:
+- allfonts
+- dotnet35
+- dotnet45
+- vcredist2019
+
+Executable:
+  name: VEXcode V5
+  file: VEXcode V5.exe
+  path: Program Files/VEX Robotics/VEXcode V5/VEXcode V5.exe
+  arguments: ""
+
+  Steps:
+  - action: install_exe
+    file_name: VEXcode V5-4.0.5-latest-win-x64.exe
+    url: https://content.vexrobotics.com/vexcode/v5/VEXcode%20V5-4.0.5-latest-win-x64.exe
+    checksum: 15ef4f9fdfed051bd9b4926b6158e83b
